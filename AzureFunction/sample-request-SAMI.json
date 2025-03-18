@@ -1,7 +1,7 @@
 {
-    "AzureBlobUri": "https://[storage_account_name].blob.core.windows.net/mycontainer", 
-    "S3BucketName": "[S3_bucket_name]",
+    "AzureBlobUri": "https://gssitsmwtestsa.blob.core.windows.net/fromaws", 
+    "S3BucketName": "s3smwtest",
     "ManagedIdentityType": "SAMI",
-    "AWSRoleArn": "arn:aws:iam::[YOUR_AWS_ACCOUNT_NUMBER]:role/S3AccessRoleFromAzure",
-    "AzureAppId": "api://AWS-Federation-App"
+    "AWSRoleArn": "arn:aws:iam::699475913542:role/s3AccessRoleFromAzure",
+    "AzureAppId": "api://api://smwaws2azure-app"
 }
